@@ -1,0 +1,30 @@
+import numpy as np
+
+print("unsorted array")
+my_array = np.random.randint(1, 20, 10)
+print(my_array)
+print("\n sorted array")
+sorted_array = np.sort(my_array)
+print(sorted_array)
+reverse_sorted = np.flipud(my_array)
+print(reverse_sorted)
+
+# my_array_string = np.array(["Red", "Green", "Orange", "Yellow"])
+# print("unsorted array")
+# print(my_array_string)
+# my_array_string_sorted = np.sort(my_array_string)
+# print(my_array_string_sorted)
+
+# print("unsorted array boolean")
+# my_array_boolean = np.array([False, True, True, False, False, True, False, True])
+# print(my_array_boolean)
+# print("\nSorted array boolean")
+# sorted_array_boolean = np.sort(my_array_boolean)
+# print(sorted_array_boolean)
+
+# print("unsorted array")
+# my_array = np.random.randint(1, 20, size=(4, 6))
+# print(my_array)
+# print("\nSorted array")
+# sorted_array = np.sort(my_array)
+# print(sorted_array)
